@@ -1,0 +1,1 @@
+meni devops darslaridagi amaliyotlarim
