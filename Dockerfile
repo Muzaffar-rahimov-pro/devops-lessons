@@ -11,3 +11,7 @@ RUN chmod +x /usr/local/bin/timestamp.sh
 
 # Container ishga tushganda skriptni bajaradi
 CMD ["/usr/local/bin/timestamp.sh"]
+
+
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/
