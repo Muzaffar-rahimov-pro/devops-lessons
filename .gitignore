@@ -1,0 +1,17 @@
+# Docker container/volume fayllari
+db_data/
+*.pid
+*.sock
+*.log
+
+# Python cache fayllari (agar keyin Python ishlatsang)
+__pycache__/
+*.pyc
+
+# OS va editor fayllari
+.DS_Store
+*.swp
+*.tmp
+
+# Node.js ishlatilsa
+node_modules/
